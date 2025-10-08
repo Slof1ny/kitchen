@@ -7,7 +7,8 @@ class AppConstants {
   static const double appVersion = 2.1; ///flutter SDK 3.32.5
 
   // demo
-  static const String baseUrl = 'YOUR_BASE_URL_HERE'; // Replace with your actual base URL
+  // Production / public mock API
+  static const String baseUrl = 'https://kitchen-delta-ebon.vercel.app'; // Vercel mock API
   static const String fontFamily = 'Roboto';
   static const String configUri = '/api/v1/config';
   static const String loginUri = '/api/v1/auth/kitchen/login';
