@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "vercel-mock/api/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/vercel-mock/api/$1.js" }
+  ]
+}
